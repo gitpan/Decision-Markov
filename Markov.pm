@@ -1,7 +1,7 @@
 package Decision::Markov;
 
 #
-# Copyright (c) 1998 Alan Schwartz <alansz@uic.edu>. All rights 
+# Copyright (c) 1998-2002 Alan Schwartz <alansz@uic.edu>. All rights 
 # reserved. This program is free software; you can redistribute it and/or 
 # modify it under the same terms as Perl itself.
 #
@@ -18,7 +18,7 @@ require AutoLoader;
 
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw();
-$VERSION = do { my @r = (q$ProjectVersion: 0.1 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
+$VERSION = "0.02";
 
 
 sub new {
