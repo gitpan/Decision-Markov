@@ -9,7 +9,7 @@ require AutoLoader;
 
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw();
-$VERSION = do { my @r = (q$ProjectVersion: 0.4 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
+$VERSION = do { my @r = (q$ProjectVersion: 0.2 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
 
 sub new {
     my $this = shift;
